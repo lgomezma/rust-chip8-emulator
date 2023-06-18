@@ -1,13 +1,12 @@
 # Chip8 Emulator in Rust
 This is a chip8 emulator written in Rust following the book https://github.com/aquova/chip8-book. The emulator consists
-on a chip8 core where actual CPU is emulated and two front-ends for it. One is a rust binary in `desktop` and the other is
-in WebAssembly in `wasm`.
+on a chip8 core where actual CPU is emulated and two front-ends for it. A rust binary in `desktop` and another in WebAssembly in `wasm`.
 
 While the WebAssembly one is incomplete, the Binary one is fully functional.
 
 # How to run it
 
-It requires a `roms` folder in the root where you can place your games. You can find those on the internet pretty easy.
+It requires a `roms` folder in the root where you can place your games. You can easily find those on the internet.
 
 Once you have the roms you can just run the following commands to make it work:
 ```
