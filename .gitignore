@@ -1,0 +1,9 @@
+**/*.rs.bk
+**/target
+**/debug
+
+.idea
+
+.DS_Store
+
+roms
